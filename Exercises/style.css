@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lora", "sans-serif";
+}
+header {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("./header/header.jpg");
+  height: 600px;
+  object-fit: cover;
+  background-position: center;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 40px;
+}
+nav {
+  position: relative;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  display: inline;
+}
+header ul a {
+  font-size: 15px;
+  display: inline;
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+}
+.take-action {
+  padding: 10px 15px;
+  border-radius: 100px;
+  border: 2px solid white;
+}
+.take-action:hover {
+  background-color: white;
+  color: #555;
+  transition: 0.3s;
+}
+#title {
+  font-size: 40px;
+}
+.hero {
+  text-align: center;
+  margin: 150px;
+  color: white;
+}
+.description {
+  font-style: italic;
+  font-size: 30px;
+}
+.main-text {
+  text-transform: uppercase;
+  font-size: 70px;
+  line-height: 1.8;
+}
+.button {
+  background-color: rgb(54, 179, 168);
+  border: 2px solid rgb(54, 179, 168);
+  border-radius: 100px;
+  display: inline;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+/* MAIN SECTION */
+main {
+  font-family: "Open Sans", sans-serif;
+}
+
+.text {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.title-text {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.content-text {
+  margin: auto;
+  line-height: 36px;
+  font-size: 20px;
+}
+
+.album-item:first-child {
+  width: 45%;
+  float: left;
+}
+.album-item {
+  width: 45%;
+  float: right;
+  text-align: center;
+}
+.album-item h1 {
+  color: rgb(61, 153, 145);
+  margin-top: 24px;
+  letter-spacing: 4px;
+}
+.album-item p {
+  line-height: 36px;
+  margin-top: 24px;
+}
+.album-item img {
+  width: 100%;
+}
+.clear-fix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.footer {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.671);
+}
+.footer h1 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.footer .container {
+  padding: 75px 75px;
+  text-align: center;
+  margin-top: 100px;
+}
